@@ -393,7 +393,14 @@
       </div>
     </div>
 
-
+    <script>
+      window.CROSSDESK_CONFIG = {
+        signalingUrl: "wss://106.54.203.183:9099",
+        iceServers: [
+          { urls: ["stun:106.54.203.183:3478"] }
+        ]
+      };
+    </script>
     <script src="control.js?v=2026.11.18.1"></script>
     <script src="turn_credentials.js?v=2026.11.18.1"></script>
     <script src="file_download.js?v=2026.11.18.1"></script>
